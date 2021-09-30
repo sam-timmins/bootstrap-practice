@@ -1,0 +1,79 @@
+:root {
+    --dark-brown: #3A2A1C;
+    --light-brown: #978170;
+    --grey: #B5AFA8;
+    --white: #DBD3C8;
+    --yellow: #EFBD5F;
+}
+
+body {
+    font-family: 'Yaldevi', sans-serif;
+}
+
+.alert-container {
+
+}
+
+.callout-container {
+    height: 100vh;
+    background: url('/assets/images/whiskey.jpg') no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.quotes-container {
+    
+}
+
+.features-container {
+    
+}
+
+.opaque-overlay {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: var(--white);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.jumbotron small {
+    color: var(--white);
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.jumbotron .lead {
+    color: var(--white);
+    font-weight: 400;
+}
+
+.jumbotron mark {
+    background-color: var(--yellow);
+    color: var(--dark-brown);
+    margin: 1rem;
+}
+
+.jumbotron button {
+    background-color: var(--light-brown);
+    border: 1px solid var(--dark-brown);
+    color: var(--white);
+    border-radius: 25px;
+}
