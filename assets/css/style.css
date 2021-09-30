@@ -10,8 +10,18 @@ body {
     font-family: 'Yaldevi', sans-serif;
 }
 
-.alert-container {
+.alert-container .col-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
 
+.site-wide-alert {
+    border-radius: 0;
+    margin: 0;
+    padding: 8px 8px 8px 30px;
+    background-color: var(--yellow);
+    color: var(--dark-brown);
+    border: none;
 }
 
 .callout-container {
@@ -28,7 +38,7 @@ body {
 }
 
 .quotes-container {
-    
+
 }
 
 .features-container {
@@ -71,9 +81,64 @@ body {
     margin: 1rem;
 }
 
-.jumbotron button {
+.btn--cta {
     background-color: var(--light-brown);
     border: 1px solid var(--dark-brown);
     color: var(--white);
     border-radius: 25px;
+    width: 10rem;
+}
+
+.btn--cta:hover,
+.btn--cta:active,
+.btn--cta:focus,
+.btn--cta:active:focus {
+    background-color: var(--grey);
+    border: 1px solid var(--grey);
+    color: var(--dark-brown);
+    outline: none;
+}
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: var(--grey);
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.navbar .navbar-nav a {
+    font-weight: 400;
+}
+
+.dropdown-menu {
+    background-color: var(--grey);
+    border: none;
+    border-radius: 0;
+    padding-left: 2rem;
+}
+
+.dropdown-menu a {
+    color: var(--white);
 }

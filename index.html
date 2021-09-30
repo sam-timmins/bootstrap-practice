@@ -18,56 +18,58 @@
 <title>Whiskey Drop | Taste a new whiskey every month</title>
 </head>
 <body>
-    <nav class="navbar navber-light bg-light navbar-expand-sm">
-        <a href="#" class="navbar-brand">Whiskey Drop</a>
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2">
-                    <a class="nav-link" href="/">
-                        Home
-                    </a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="/about">
-                        About
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="navbarNavDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Whiskeys
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarNavDropdownMenuLink">
-                        <a href="#" class="dropdown-item">Irish</a>
-                        <a href="#" class="dropdown-item">Scotch</a>
-                        <a href="#" class="dropdown-item">Japanese</a>
-                        <a href="#" class="dropdown-item">American</a>
+    <div class="container-fluid navalert-container">
+        <div class="container-fluid alert-container">
+            <div class="row d-none d-sm-block">
+                <div class="col-12">
+                    <div class="site-wide-alert alert alert-warning">
+                        <strong>Sale Now On!</strong> We've got 12 months subscription for the price of 6! <a href="/">See here for details!</a>
                     </div>
-                </li>
-                <li class="nav-item mr-2 d-block d-sm-none">
-                    <a class="nav-link" href="/login">
-                        Sign In / Sign Up
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-2">Great whiskey delivered to your door!</p>
-            <a href="/login">Sing In / Sign Up</a>
-        </div>
-    </nav>
-
-    <div class="container alert-container">
-        <div class="row d-none d-sm-block">
-            <div class="col-12">
-                <div class="alert alert-warning">
-                    <strong>Sale Now On!</strong> We've got 12 months subscription for the price of 6! <a href="/">See here for details!</a>
                 </div>
             </div>
         </div>
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a href="#" class="navbar-brand">Whiskey Drop</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2">
+                        <a class="nav-link" href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link" href="#">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarNavDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Whiskeys
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarNavDropdownMenuLink">
+                            <a href="#" class="dropdown-item">Irish</a>
+                            <a href="#" class="dropdown-item">Scotch</a>
+                            <a href="#" class="dropdown-item">Japanese</a>
+                            <a href="#" class="dropdown-item">American</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mr-2 d-block d-sm-none">
+                        <a class="nav-link" href="#">
+                            Sign In / Sign Up
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2">Great whiskey delivered to your door!</p>
+                <a href="#">Sign In / Sign Up</a>
+            </div>
+        </nav>
     </div>
+
     <div class="callout-container container-fluid">
         <!-- Callout -->
         <div class="opaque-overlay">&nbsp;</div>
@@ -79,7 +81,7 @@
                     <s class="d-none d-sm-inline">€19.99</s>
                     <span class="d-inline d-sm-none"><br></span>
                     <strong><mark>First one is free!</mark></strong></p>
-                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+                    <button class="btn btn-success btn-lg btn--cta" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
                     <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
                 </section>
             </div>
